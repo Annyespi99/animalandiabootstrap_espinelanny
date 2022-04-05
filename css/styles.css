@@ -1,8 +1,18 @@
 
 
-h1, h3{
+h1{
     text-align: center;
+    color: #4b058c;
+    text-shadow: 0 2px 2px #330063;
 }
+
+h3{
+    text-align: center;
+    
+
+}
+
+
 
 .bg-light {
     --bs-bg-opacity: 1;
@@ -31,7 +41,7 @@ h1, h3{
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
     /* line-height: 1; */
-    background-color: rgb(0 178 177);
+    background-color: rgb(0, 178, 160);
     border: 1px solid #00b2b1;
     border-radius: 0.25rem;
     transition: box-shadow 0.15s ease-in-out;
@@ -66,8 +76,8 @@ nav {
 
 .btn-primary {
     background: linear-gradient(
-        #00b2b1,
-        #016e6e);
+    #00b2b1,
+    #5c00b2);
     
     background-color: var(--blue-color);
     border-radius: 5px;
@@ -77,10 +87,67 @@ nav {
 
 .btn-primary:hover {
     background: linear-gradient(
-        #016e6e,
-        #00b2b1); 
+    #5c00b2,
+    #00b2b1); 
     transition: all 1s ease 1s; 
-    }
+}
+.btn-primari {
+    background: linear-gradient(
+    #00b2b1,
+    #5c00b2);
+    
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    border-color: var(--blue-color);
+    color: aliceblue;
+}
+
+
+.btn-primari:hover {
+    background: linear-gradient(
+    #5c00b2,
+    #00b2b1); 
+    transition: all 1s ease 1s; 
+}
+.btn-primari1 {
+    background: linear-gradient(
+    #00b2b1,
+    #36a6b3);
+    
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    border-color: var(--blue-color);
+    color: aliceblue;
+}
+
+
+.btn-primari1:hover {
+    background: linear-gradient(
+    #031936,
+    #00b2b1); 
+    transition: all 1s ease 1s; 
+}
+
+.btn-primari2 {
+    background: linear-gradient(
+    #591cb4,
+    #5c00b2);
+    
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    border-color: var(--blue-color);
+    color: aliceblue;
+}
+
+
+.btn-primari2:hover {
+    background: linear-gradient(
+    #5c00b2,
+    #1c053e); 
+    transition: all 1s ease 1s;
+    
+}
+
 
 
 
@@ -130,6 +197,11 @@ nav {
 #gratis img{
     border-radius: 150px;
     border: 7px solid rgb(0, 0, 0);
+}
+
+#gratis1 img{
+    left: 10%;
+    
 }
 .ah{
     background-color: rgb(255, 255, 255);
@@ -199,15 +271,25 @@ nav {
 }
 
 .formula{
-    background-color: #00b2b26e;
+    background-color: rgb(117, 41, 149);
     border-radius: 30px;
     text-align: center;
+    color: #ffffff;
+    width: 30em;
+    margin-right: 70px;
 }
 
 
 .info-contacto{
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.info-contacto p{
+    margin-top: 50px;
+    margin-bottom: 90px;
     text-align: center;
     border-radius: 100px;
 }
@@ -227,7 +309,7 @@ nav {
 
 .formulas{
     margin-top: 50px;
-    background-color: #00b2b26e;
+    background-color: #0733333f;
     border-radius: 30px;
     text-align: center;
 }
@@ -247,6 +329,32 @@ nav {
 .button-back {
     margin-top: 20px;
 }
+
+/*Contacto*/
+
+.bannerazul iframe{
+    height: 300px;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap; /* Esta propiedad nos permite colocar los elementos divididos en filas*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Tips*/
+.servicestips {
+    text-align: justify;
+}
+.servicestips img{
+    margin-left: 10em;
+}
+
+
+
 
 
 
