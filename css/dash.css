@@ -79,6 +79,14 @@ header{
   background-color: var(--ligh-color);
   padding: 30px;
   text-align: center;
+  
+}
+.contenido p{
+  flex-basis: 80%;
+  background-color: var(--ligh-color);
+  padding: 30px;
+  text-align: center;
+  text-align: justify;
 }
 
 /*estilos productos*/
@@ -165,3 +173,96 @@ table td{
   font-size: 1rem;
   border-radius: 5px;
 } 
+
+/*Usuario*/
+.nav-tabs{
+  margin-left: 50px;
+  
+}
+
+.container th{
+  background-color: #063f4767;
+  text-align: center;
+}
+.clientes td{
+  border-color: none;
+  height: 60px;
+  
+
+
+}
+
+
+/*Pedidos*/
+.contenidopedidos{
+  flex-basis: 80%;
+  
+  padding: 30px;
+  text-align: center;
+  
+  
+}
+.card h-100{
+  border-radius: 50px;
+  
+
+}
+.contenidopedidos p{
+  flex-basis: 80%;
+  background-color:#82828243;
+  padding: 30px;
+  text-align: center;
+  text-align: justify;
+  border-radius: 20px;
+  
+}
+
+.col{
+  margin-left: 70px;
+  margin-top: 40px;
+  height: 500px;
+  width: 300px;
+  text-align: center;
+}
+
+.card-img-top{
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  
+}
+
+/*Reportes*/
+
+.formrepor{
+  
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 100px;
+  color: rgb(44, 4, 82);
+  
+}
+.btn-primary {
+  background: linear-gradient(
+  #00b2b1,
+  #5c00b2);
+  margin-left: 50px;
+  background-color: var(--blue-color);
+  border-radius: 5px;
+  border-color: var(--blue-color);
+  color: aliceblue;
+
+}
+
+
+.btn-primary:hover {
+  background: linear-gradient(
+  #5c00b2,
+  #00b2b1); 
+  transition: all 1s ease 1s; 
+  border: none;
+}
+
+.mb-3 input{
+  border-color:  #5c00b2;
+}
