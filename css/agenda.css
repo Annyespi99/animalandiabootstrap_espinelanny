@@ -254,25 +254,20 @@ nav {
 
 label #time{
     display: flex;
-    width: 15em;
+    width: 100%;
     height: 40px;
     
 }
 label #day{
     display: flex;
-    width: 15em;
+    width: 100%;
     height: 40px;
     
 }
-label #week{
-    display: flex;
-    width: 15em;
-    height: 40px;
-    
-}
+
 label #month{
     display: flex;
-    width: 15em;
+    width: 100%;
     height: 40px;
     
 }
